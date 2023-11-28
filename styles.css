@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(113, 24, 161); /* Morado oscuro */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    opacity: 0; /* Inicialmente la página está oculta */
+    animation: fadeIn 1.5s forwards; /* Animación de desvanecimiento */
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    opacity: 0; /* Inicialmente el texto está oculto */
+    animation: fadeInText 2s forwards 0.5s; /* Animación de desvanecimiento del texto */
+  }
+  
+  .clock {
+    font-size: 8em;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Blanco con transparencia */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Sombra */
+    opacity: 0; /* Inicialmente el reloj está oculto */
+    animation: fadeInText 2s forwards 0.5s; /* Animación de desvanecimiento del reloj */
+  }
+  
+  /* Definición de la animación de desvanecimiento */
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeInText {
+    to {
+      opacity: 1;
+    }
+  }
+  
