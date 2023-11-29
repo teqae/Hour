@@ -31,3 +31,9 @@ Si deseas personalizar el diseño o la funcionalidad:
 ## Agradecimientos
 
 Este proyecto fue creado con fines educativos y de demostración. Agradecimientos a los recursos en línea que contribuyeron a su desarrollo
+
+## Vista previa
+
+<p align="center">
+  <img src="https://cdn.discordapp.com/attachments/1167594085029269514/1179164154779668520/image.png?ex=6578c932&is=65665432&hm=726f00aac00cc93d73f5dfe55f14da2c88ddb1ef761104ac9dc6827efff9895d&" height="500"/>
+</p>
